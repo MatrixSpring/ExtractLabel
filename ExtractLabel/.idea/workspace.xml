@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="pytest for triple_extraction.test" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7766969-0f7d-456b-9e0b-130db7ae9eb0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ExtractLabel$pytest_for_triple_extraction_test.coverage" NAME="pytest for triple_extraction.test Coverage Results" MODIFIED="1540351386993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/extraction" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1541043581148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/main" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$similaritytfidf.coverage" NAME="similaritytfidf Coverage Results" MODIFIED="1541059748586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/similarity" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$fact_triple_extraction.coverage" NAME="fact_triple_extraction Coverage Results" MODIFIED="1540696905233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/extraction" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$fasttext_classifier.coverage" NAME="fasttext_classifier Coverage Results" MODIFIED="1541508149355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/facebook_ft" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$sentence_parser.coverage" NAME="sentence_parser Coverage Results" MODIFIED="1540901667239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/extraction" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$main.coverage" NAME="main Coverage Results" MODIFIED="1541505112158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/main" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$filterclass.coverage" NAME="filterclass Coverage Results" MODIFIED="1540976832086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/filter" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$fileutils.coverage" NAME="fileutils Coverage Results" MODIFIED="1541405466244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/utils" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1540887683007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/structure" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$fileoperations.coverage" NAME="fileoperations Coverage Results" MODIFIED="1541577899863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/initfile" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$pytest_for_main_test_ltp_util.coverage" NAME="pytest for app.src.pyltputils.main.test_ltp_util Coverage Results" MODIFIED="1540290162360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/pyltputils" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$markrecord.coverage" NAME="markrecord Coverage Results" MODIFIED="1540974378399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/markrecord" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$pytest_in_main_py.coverage" NAME="pytest in main.py Coverage Results" MODIFIED="1540364651740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/pyltputils" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$triple_extraction.coverage" NAME="triple_extraction Coverage Results" MODIFIED="1540542743137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/extraction" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$pytest_for_main_test_ltp_tree.coverage" NAME="pytest for main.test_ltp_tree Coverage Results" MODIFIED="1540364670250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/pyltputils" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$ltputil.coverage" NAME="ltputil Coverage Results" MODIFIED="1540365874182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/pyltputils" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$triple_extraction_utils.coverage" NAME="triple_extraction_utils Coverage Results" MODIFIED="1540975992839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/extraction" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$initword.coverage" NAME="initword Coverage Results" MODIFIED="1541577812041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/initfile" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$similarityknn.coverage" NAME="similarityknn Coverage Results" MODIFIED="1541062066064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/similarity" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$facebookft.coverage" NAME="facebookft Coverage Results" MODIFIED="1541506868456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/facebook_ft" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$similaritygensim.coverage" NAME="similaritygensim Coverage Results" MODIFIED="1541497484434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/similarity" />
+    <SUITE FILE_PATH="coverage/ExtractLabel$wordutils.coverage" NAME="wordutils Coverage Results" MODIFIED="1541577394048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/utils" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1847050298">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="%" value="5" />
+          <entry key="0" value="1" />
+          <entry key="a" value="8" />
+          <entry key="a-客服-邀约活动" value="1" />
+          <entry key="a-打电话-无法接通" value="1" />
+          <entry key="a-打电话号码关闭" value="1" />
+          <entry key="a-打电话客户忙" value="1" />
+          <entry key="a-打电话忙" value="1" />
+          <entry key="a-打电话拒接" value="1" />
+          <entry key="ad" value="2" />
+          <entry key="ag" value="2" />
+          <entry key="an" value="3" />
+          <entry key="b" value="5" />
+          <entry key="b-客服-微信沟通" value="1" />
+          <entry key="b-客服-记得不清楚了" value="1" />
+          <entry key="c" value="3" />
+          <entry key="contact-method-n" value="1" />
+          <entry key="d" value="4" />
+          <entry key="d-客户-没有资金" value="1" />
+          <entry key="df" value="1" />
+          <entry key="e" value="3" />
+          <entry key="e-奇怪符号的" value="1" />
+          <entry key="eng" value="3" />
+          <entry key="f" value="3" />
+          <entry key="g" value="3" />
+          <entry key="h" value="2" />
+          <entry key="i" value="2" />
+          <entry key="j" value="2" />
+          <entry key="json" value="2" />
+          <entry key="k" value="3" />
+          <entry key="l" value="2" />
+          <entry key="lastfailed" value="1" />
+          <entry key="m" value="2" />
+          <entry key="md" value="1" />
+          <entry key="model" value="6" />
+          <entry key="mq" value="2" />
+          <entry key="n" value="3" />
+          <entry key="ng" value="1" />
+          <entry key="nh" value="1" />
+          <entry key="nl" value="1" />
+          <entry key="nr" value="1" />
+          <entry key="nrfg" value="1" />
+          <entry key="nrt" value="2" />
+          <entry key="ns" value="2" />
+          <entry key="py" value="164" />
+          <entry key="readme" value="1" />
+          <entry key="txt" value="512" />
+          <entry key="v" value="1" />
+          <entry key="version" value="1" />
+          <entry key="vn" value="1" />
+          <entry key="word-industry" value="2" />
+          <entry key="word-industry-economy" value="2" />
+          <entry key="word-positive" value="1" />
+          <entry key="wp" value="1" />
+          <entry key="ws" value="1" />
+          <entry key="x" value="1" />
+          <entry key="y" value="2" />
+          <entry key="yg" value="2" />
+          <entry key="z" value="7" />
+          <entry key="zg" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="628" />
+          <entry key="Python" value="164" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="contact-method-n" value="27" />
+          <entry key="dummy" value="11" />
+          <entry key="py" value="15536" />
+          <entry key="txt" value="7415" />
+          <entry key="word-industry" value="2" />
+          <entry key="word-industry-economy" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7457" />
+          <entry key="Python" value="15536" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/initfile/fileoperations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="185" column="49" lean-forward="true" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1541575824332" expanded="true" signature="2053:4104" ph="..." />
+                <marker date="1541575824332" expanded="true" signature="4024:4104" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/extraction/triple_extraction_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6468" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/similarity/similaritygensim.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/extraction/sentence_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-913">
+              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/initfile/initword.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="869">
+              <caret line="73" column="81" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="81" />
+              <folding>
+                <element signature="e#23#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/utils/wordutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/res/word-stop.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-658">
+              <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assert/word_segmentation.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="235" column="5" selection-start-line="235" selection-start-column="3" selection-end-line="235" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/res/lexicon/nt-time.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="385" column="4" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/res/lexicon/ns-place.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49390">
+              <caret line="2245" selection-start-line="2245" selection-end-line="2245" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>每月底</find>
+      <find>很久</find>
+      <find>学区房</find>
+      <find>两个月</find>
+      <find>一年内</find>
+      <find>近一个月</find>
+      <find>做了</find>
+      <find>过几年</find>
+      <find>这两天</find>
+      <find>短期内</find>
+      <find>15个月</find>
+      <find>新疆</find>
+      <find>发了</find>
+      <find>1</find>
+      <find>l</find>
+      <find>源乐晟</find>
+      <find>智德</find>
+      <find>博颐</find>
+      <find>远策</find>
+      <find>顺</find>
+      <find>财富</find>
+      <find>杭州</find>
+      <find>资本管理</find>
+      <find>管理</find>
+      <find>淡水泉</find>
+      <find>上海</find>
+      <find>t</find>
+      <find>get_simple_product</find>
+      <find>十天</find>
+      <find>，</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/res/lexicon/word-hurry-a.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/word-profanity-a.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/word-glossary-i.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/word-worry-a.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/investment-stock-n.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/word-people-nh.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/word-company-ni.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/word-place-ns.txt" />
+        <option value="$PROJECT_DIR$/app/src/similarity/similaritygensim.py" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-邮箱发资料.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/a-打电话-号码关闭.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/a-打电话-客户拒接.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-删除了微信.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-建议放弃.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-是同行.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-邀约活动.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/a-打电话-客户没接.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-加微信.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-描述用户年纪.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-描述用户资金.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/a-打电话-无法接通.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-短信沟通.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/c-合作-推荐产品.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-微信沟通.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-描述用户职业.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/a-打电话-客户来电.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/a-打电话-客户忙.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/ni-fund_company.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/ni-security-company.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/ni-public-company.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/ni-company.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/b-客服-记得不清楚了.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/e-奇怪符号的.txt" />
+        <option value="$PROJECT_DIR$/app/res/scene/d-客户-没有资金.txt" />
+        <option value="$PROJECT_DIR$/app/src/filter/filterclass.py" />
+        <option value="$PROJECT_DIR$/app/src/facebook_ft/facebookft.py" />
+        <option value="$PROJECT_DIR$/app/src/facebook_ft/indicator.py" />
+        <option value="$PROJECT_DIR$/app/src/facebook_ft/fasttext_classifier.py" />
+        <option value="$PROJECT_DIR$/app/assert/company_brief.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/ni-company-brief.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/n-company-decorate.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/n-product-decorate.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/n-decorate-product.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/nz-product.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/ns-place.txt" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/ni-private-placement.txt" />
+        <option value="$PROJECT_DIR$/app/src/initfile/initword.py" />
+        <option value="$PROJECT_DIR$/app/res/lexicon/nt-time.txt" />
+        <option value="$PROJECT_DIR$/app/src/initfile/fileoperations.py" />
+        <option value="$PROJECT_DIR$/app/res/word-stop.txt" />
+        <option value="$PROJECT_DIR$/app/src/utils/wordutils.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="325" />
+    <option name="width" value="1283" />
+    <option name="height" value="1021" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ExtractLabel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtractLabel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExtractLabel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtractLabel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExtractLabel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtractLabel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExtractLabel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtractLabel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExtractLabel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtractLabel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="extraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExtractLabel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtractLabel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="similarity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/pyltputils/main.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ACBC\ExtractLabel\app\res" />
+      <recent name="C:\ACBC\ExtractLabel\app\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ACBC\ExtractLabel\app\res\ltp\ltp_data_user" />
+      <recent name="C:\ACBC\ExtractLabel\app\res\lexicon" />
+      <recent name="C:\ACBC\ExtractLabel\app\assert" />
+      <recent name="C:\ACBC\ExtractLabel\app\res" />
+      <recent name="C:\ACBC\ExtractLabel\app\src\facebook_ft" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.fileoperations">
+    <configuration name="facebookft" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExtractLabel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/src/facebook_ft" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/src/facebook_ft/facebookft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fasttext_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExtractLabel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/src/facebook_ft" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/src/facebook_ft/fasttext_classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fileoperations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExtractLabel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/src/initfile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/src/initfile/fileoperations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="initword" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExtractLabel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/src/initfile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/src/initfile/initword.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wordutils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExtractLabel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/src/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/src/utils/wordutils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.initword" />
+      <item itemvalue="Python.facebookft" />
+      <item itemvalue="Python.fasttext_classifier" />
+      <item itemvalue="Python.fileoperations" />
+      <item itemvalue="Python.wordutils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fileoperations" />
+        <item itemvalue="Python.initword" />
+        <item itemvalue="Python.wordutils" />
+        <item itemvalue="Python.fasttext_classifier" />
+        <item itemvalue="Python.facebookft" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7766969-0f7d-456b-9e0b-130db7ae9eb0" name="Default Changelist" comment="" />
+      <created>1540289270497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540289270497</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="app - 2018.10.23 at 18h 27m 10s.xml">
+      <configuration name="app" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_triple_extraction_test - 2018.10.23 at 18h 44m 28s.xml">
+      <configuration name="pytest for triple_extraction.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_triple_extraction_test - 2018.10.23 at 18h 45m 20s.xml">
+      <configuration name="pytest for triple_extraction.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_triple_extraction_test - 2018.10.23 at 18h 45m 25s.xml">
+      <configuration name="pytest for triple_extraction.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_triple_extraction_test - 2018.10.23 at 18h 45m 47s.xml">
+      <configuration name="pytest for triple_extraction.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_triple_extraction_test - 2018.10.24 at 11h 23m 01s.xml">
+      <configuration name="pytest for triple_extraction.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_triple_extraction_test - 2018.10.24 at 11h 23m 19s.xml">
+      <configuration name="pytest for triple_extraction.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_main_test_ltp_tree - 2018.10.24 at 15h 04m 10s.xml">
+      <configuration name="pytest for main.test_ltp_tree" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_main_py - 2018.10.24 at 15h 04m 14s.xml">
+      <configuration name="pytest in main.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_main_test_ltp_tree - 2018.10.24 at 15h 04m 31s.xml">
+      <configuration name="pytest for main.test_ltp_tree" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2752809" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1481069" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48329622" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/src/extraction/fact_triple_extraction.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/src/extraction/triple_extraction_utils.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="arcs" />
+        <watch expression="arcs" />
+        <watch expression="indifferent_word" language="Python" />
+        <watch expression="self.indifferent_word" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>self.indifferent_word</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>indifferent_word</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/ni-public-company.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/ni-company.txt" />
+    <entry file="file://$PROJECT_DIR$/app/res/scene/a-打电话-不感兴趣.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/scene/b-客服-记得不清楚了.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/scene/e-奇怪符号的.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/scene/c-客户-咨询产品.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/scene/c-客户-随便看看.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/scene/a-打电话-电弧提示.txt" />
+    <entry file="file://$PROJECT_DIR$/app/res/scene/d-客户-没有资金.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/tree-triple-extractor-4.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/scene/d-客户-查看数据.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/facebook_ft/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/regardless_word.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/triple-extractor.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/foo-json.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/foo-json-empty.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/normalSentence.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/facebook_ft/facebookft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/facebook_ft/data_process.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/facebook_ft/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/facebook_ft/indicator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="91" selection-start-line="44" selection-start-column="91" selection-end-line="44" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/facebook_ft/fasttext_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/company.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/extraction/notes_pretreatment.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/filter/filterclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2341">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/extraction/fact_triple_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/n-decorate-company.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/ni-organization.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/product_name_brief.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/product_name.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/n-decorate-product.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/company_brief.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10956">
+          <caret line="498" column="4" selection-end-line="106892" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/ni-company-brief.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="947" column="4" selection-start-line="947" selection-start-column="4" selection-end-line="947" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/product_brief.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9422380">
+          <caret line="428290" column="5" selection-end-line="428291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/ni-private-placement.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/ni-private-placement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2351404">
+          <caret line="106882" column="17" selection-start-line="106882" selection-start-column="17" selection-end-line="106882" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/nz-product.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9785666">
+          <caret line="444803" column="5" selection-start-line="444803" selection-start-column="5" selection-end-line="444803" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/ns-place.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49390">
+          <caret line="2245" selection-start-line="2245" selection-end-line="2245" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/ltp/ltp_data_user/fulluserdict-1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308785" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/ltp/ltp_data_user/fulluserdict.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/ltp/ltp_data_user/fulluserdict-b1.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/lexicon/nt-time.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="385" column="4" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assert/word_segmentation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="235" column="5" selection-start-line="235" selection-start-column="3" selection-end-line="235" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/word-stop.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-658">
+          <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/utils/wordutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/initfile/initword.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="73" column="81" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="81" />
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/initfile/fileoperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="185" column="49" lean-forward="true" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1541575824332" expanded="true" signature="2053:4104" ph="..." />
+            <marker date="1541575824332" expanded="true" signature="4024:4104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/extraction/triple_extraction_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/similarity/similaritygensim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/extraction/sentence_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-913">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
